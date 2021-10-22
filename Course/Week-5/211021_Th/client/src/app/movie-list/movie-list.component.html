@@ -1,0 +1,7 @@
+
+<app-selector></app-selector>
+<div class='movies'>
+<div class="movies-poster" *ngFor="let movie of movies">
+  <a routerLink="/movie/{{movie.id}}"><img height="300px" src="https://image.tmdb.org/t/p/w300/{{movie.poster_path}}"></a>
+</div> 
+</div>

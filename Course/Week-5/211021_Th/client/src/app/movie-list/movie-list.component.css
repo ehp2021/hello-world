@@ -1,0 +1,25 @@
+h3 {
+  color:purple;
+  font-style: bold;
+  margin-left: 20px;
+}
+
+.movies {
+  display:flex;
+  justify-content: flex-start;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+img {
+    margin-left: 20px;
+}
+.movies::-webkit-scrollbar{
+  -webkit-box-shadow: inset yellow;
+  -webkit-border-radius: 40px;
+  background-color:black;
+  height:10px;
+}
+.movies::-webkit-scrollbar-thumb{
+  background-color: rgb(255, 165, 0);
+  border-radius: 100px;
+}

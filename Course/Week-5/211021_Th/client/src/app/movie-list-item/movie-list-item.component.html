@@ -1,0 +1,17 @@
+
+<div *ngIf="movie">
+    <div class="top">
+        <img src="https://image.tmdb.org/t/p/w300/{{movie.poster_path}}">
+        <div class='information'>
+            <h2>{{movie.original_title}}</h2>
+            <div id="production">{{movie.production_companies[0].name}}</div>
+            <br>
+            <div id="genre-title">Genre:</div>
+            <div id="genre" *ngFor="let m of movie.genres"> {{m.name}}</div>
+            <br>
+            <div id="vote">Stars: {{movie.vote_average}}</div>
+        </div>
+    </div>
+
+    <div id="overview">{{movie.overview}}</div>
+</div>

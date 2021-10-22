@@ -1,0 +1,35 @@
+p {
+  color:white;
+}
+h2 {
+  color:white;
+}
+
+img {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+#overview {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+}
+
+#vote, #production, #genre {
+  color: white;
+}
+
+#genre-title{
+  color: rgb(113	113	113	)
+}
+.top {
+  display:flex
+}
+.information {
+  margin-left:50px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}

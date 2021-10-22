@@ -1,0 +1,13 @@
+<div class="dropdown"*ngIf="categories.length" >
+  <!-- <div class="selectedname" *ngIf="selectedCategory">
+   
+  </div> -->
+
+  <!-- || categories[0].name -->
+  <button class="mouse" >{{selectedCategory.name }} ▾</button> 
+  <div class="dropdown-content" >
+  <button class="dropcategory" *ngFor="let category of categories" (click)="changeCategory(category)">{{category.name}}</button>
+  </div>
+</div>
+
+<!-- https://www.copyandpastesymbols.net/upside-down-triangle-symbol.html -->
